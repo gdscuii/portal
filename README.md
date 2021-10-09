@@ -1,7 +1,4 @@
 # Portal of GDSC UII
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 Portal for anyone who wants to know more about GDSC UII. In addition, it displays some information such as events and open source projects.
 
 # Tech Stacks
@@ -17,23 +14,3 @@ Go to Issues tab and write your idea or report. If your idea and report is confi
 3. Commit and push your solution draft to the forked repository.
 4. Add a pull request to this repository.
 5. If your solution is reviewed and approved, you will added as contributor.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/me"><img src="https://avatars.githubusercontent.com/u/9734?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ivan</b></sub></a><br /><a href="https://github.com/gdscuii/portal/commits?author=me" title="Code">💻</a> <a href="#ideas-me" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-me" title="Design">🎨</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

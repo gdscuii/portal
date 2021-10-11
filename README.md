@@ -5,7 +5,7 @@
 Portal for anyone who wants to know more about GDSC UII. In addition, it displays some information such as events and open source projects.
 
 # Tech Stacks
-Just simple html, css, and vanilla javascript.
+Just simple html, css, and vanilla javascript. And last but not least, google sheets as the backend (https://docs.google.com/spreadsheets/d/1VF6uC8Cqy47H6jLwlqoFNc0edbyCi1UZNeVV_9RiL50/edit?usp=sharing).
 
 # How to contribute?
 There are two ways to contribute.

@@ -25,7 +25,7 @@ function eventItemTemplate(event) {
                 <h1 class="font-bold text-xl leading-6">${event.title}</h1>
                 <p class="mt-2 text-gray-600">${event.datetime}</p>
                 <p class="mt-2">
-                    <a href="#" class="font-bold text-blue-800">${event.registrationLink}</a>
+                    <a href="http://${event.registrationLink}" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-800">${event.registrationLink}</a>
                 </p>
             </div>
         </article>`)

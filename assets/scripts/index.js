@@ -5,15 +5,17 @@ async function getEvents() {
     const result = await fetch(url)
     const { sheets } = await result.json();
     const firstSheet = sheets[0];
-    const data = firstSheet.data[0].rowData.map(row => {
-        const { values } = row;
-        return {
-            title: values[0].formattedValue,
-            datetime: values[1].formattedValue,
-            registrationLink: values[2].formattedValue,
-            imageUrl: values[3].formattedValue
-        }
-    })
+    const data = firstSheet.data[0].rowData
+        .filter((_, index) => index !== 0) // Mulai dari index 1 (menghindari nama kolom)
+        .map(row => {
+            const { values } = row;
+            return {
+                title: values[0].formattedValue,
+                datetime: values[1].formattedValue,
+                registrationLink: values[2].formattedValue,
+                imageUrl: values[3].formattedValue
+            }
+        })
     return data;
 }
 

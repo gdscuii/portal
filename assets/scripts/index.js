@@ -4,8 +4,8 @@ async function getEvents() {
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/?key=${apiKey}&includeGridData=true`;
     const result = await fetch(url)
     const { sheets } = await result.json();
-    const firstSheet = sheets[0];
-    const data = firstSheet.data[0].rowData
+    const eventSheet = sheets[0];
+    const data = eventSheet.data[0].rowData
         .filter((_, index) => index !== 0) // Mulai dari index 1 (menghindari nama kolom)
         .map(row => {
             const { values } = row;

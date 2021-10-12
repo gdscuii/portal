@@ -28,7 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://albarranaufala.github.io"><img src="https://avatars.githubusercontent.com/u/54704525?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Albarra Naufala Erdanto</b></sub></a><br /><a href="https://github.com/gdscuii/portal/commits?author=albarranaufala" title="Code">💻</a> <a href="#ideas-albarranaufala" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-albarranaufala" title="Design">🎨</a></td>
-    <td align="center"><a href="https://firdausreza-portfolio.vercel.app/"><img src="https://avatars.githubusercontent.com/u/62591909?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reza Firdaus</b></sub></a><br /><a href="#design-firdausreza" title="Design">🎨</a></td>
+    <td align="center"><a href="https://firdausreza-portfolio.vercel.app/"><img src="https://avatars.githubusercontent.com/u/62591909?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reza Firdaus</b></sub></a><br /><a href="#design-firdausreza" title="Design">🎨</a> <a href="https://github.com/gdscuii/portal/commits?author=firdausreza" title="Code">💻</a></td>
   </tr>
 </table>
 

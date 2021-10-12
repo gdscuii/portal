@@ -47,8 +47,43 @@ async function renderEvents() {
     }
 }
 
+function mediumItemTemplate(article) {
+    return (
+        `<a href="${article.link}" class="border-2 rounded-lg overflow-hidden flex flex-col hover:border-blue-500 focus:border-blue-500">
+            <img src="${article.thumbnail}" alt="${article.title}">
+            <div class="py-3 px-4 flex-1 flex flex-col justify-between">
+                <h3 class="font-bold leading-5">${article.title}</h3>
+                <p class="mt-2 text-xs text-gray-600">${article.author}</p>
+            </div>
+        </a>`
+    )
+}
+
+async function getMediumStories() {
+    const mediumRssFeed = "https://medium.com/feed/google-developer-student-club-universitas-islam";
+    const url = new URL("https://api.rss2json.com/v1/api.json");
+    url.search = new URLSearchParams({
+        rss_url: mediumRssFeed,
+    })
+    const result = await fetch(url);
+    const data = await result.json();
+    return data;
+}
+
+async function renderMediumStories() {
+    const mediumDOM = document.getElementById('medium');
+    try {
+        const { items } = await getMediumStories();
+        mediumDOM.innerHTML = items.map(article => mediumItemTemplate(article)).join('');
+    } catch (error) {
+        mediumDOM.innerHTML = error
+    }
+}
+
+
 function renderHTML() {
     renderEvents();
+    renderMediumStories();
 }
 
 renderHTML();

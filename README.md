@@ -15,7 +15,7 @@ Go to Issues tab and write your idea or report. If your idea and report is confi
 1. Choose the issue that you want to solve.
 2. Fork this repository and create a new branch to the forked repository.
 3. Commit and push your solution draft to the forked repository.
-4. Add a pull request to this repository.
+4. Add a pull request to this repository. (dont forget to mention the issue that you want to solve.
 5. If your solution is reviewed and approved, you will added as contributor.
 
 ## Contributors ✨

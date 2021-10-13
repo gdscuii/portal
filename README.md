@@ -1,6 +1,6 @@
 # Portal of GDSC UII
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Portal for anyone who wants to know more about GDSC UII. In addition, it displays some information such as events and open source projects.
 
@@ -29,6 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://albarranaufala.github.io"><img src="https://avatars.githubusercontent.com/u/54704525?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Albarra Naufala Erdanto</b></sub></a><br /><a href="https://github.com/gdscuii/portal/commits?author=albarranaufala" title="Code">💻</a> <a href="#ideas-albarranaufala" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-albarranaufala" title="Design">🎨</a></td>
     <td align="center"><a href="https://firdausreza-portfolio.vercel.app/"><img src="https://avatars.githubusercontent.com/u/62591909?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reza Firdaus</b></sub></a><br /><a href="#design-firdausreza" title="Design">🎨</a> <a href="https://github.com/gdscuii/portal/commits?author=firdausreza" title="Code">💻</a> <a href="#ideas-firdausreza" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/safikw"><img src="https://avatars.githubusercontent.com/u/52861495?v=4?s=100" width="100px;" alt=""/><br /><sub><b>safikw</b></sub></a><br /><a href="#design-safikw" title="Design">🎨</a></td>
   </tr>
 </table>
 

@@ -28,7 +28,14 @@
   <link rel="stylesheet" href="assets/styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mortezaom/google-sans-cdn@master/fonts.css" />
+
+  <style>
+    * {
+      font-family: 'Google Sans', sans-serif;
+    }
+  </style>
 </head>
 <body class="antialiased">
   <header class="p-4 border-b-2 sticky top-0 bg-white z-40">
@@ -38,7 +45,7 @@
         <a href="#gdsc" class="px-4">What is GDSC?</a>
         <a href="#team" class="px-4">Meet the Team</a>
         <a href="#event-list" class="px-4">Events</a>
-        <a href="#medium" class="px-4">Articles</a>
+        <a href="#medium-articles" class="px-4">Articles</a>
         <a href="#contact" class="px-4">Contact Us</a>
       </nav>
     </div>
@@ -50,15 +57,16 @@
         <img src="assets/img/emot-hands.png" alt="emot-hands" class="absolute -right-14 -top-28 hidden md:block">
       </h1>
       <p class="mt-2 text-center">We’re finally here! Checkout what’s currently happening on GDSC UII.</p>
-      <img src="assets/img/circle-red.svg" alt="circle-red" class="absolute top-0 left-0 h-64" style="z-index: -1;">
-      <img src="assets/img/circle-green.svg" alt="circle-green" class="absolute top-0 right-0 h-80" style="z-index: -1;">
-      <img src="assets/img/circle-blue.svg" alt="circle-blue" class="absolute top-96 left-0 h-48" style="z-index: -1;">
-      <img src="assets/img/circle-yellow.svg" alt="circle-yellow" class="absolute top-96 right-16 h-32" style="z-index: -1;">
+      <img src="assets/img/circle-red.svg" alt="circle-red" class="absolute top-0 left-0 h-64 hidden sm:block" style="z-index: -1;">
+      <img src="assets/img/circle-green.svg" alt="circle-green" class="absolute top-0 right-0 h-80 hidden sm:block" style="z-index: -1;">
+      <img src="assets/img/circle-blue.svg" alt="circle-blue" class="absolute top-96 left-0 h-48 hidden sm:block" style="z-index: -1;">
+      <img src="assets/img/circle-yellow.svg" alt="circle-yellow" class="absolute top-96 right-16 h-32 hidden sm:block" style="z-index: -1;">
     </section>
+
     <section id="gdsc" class="mt-16 p-4 max-w-5xl mx-auto flex flex-col md:flex-row md:items-center">
       <div class="relative flex justify-center items-center">
-        <img src="assets/img/pattern-what-is.png" alt="pattern-what-is" width="1200">
-        <img src="assets/img/gdsc-uii-signature-logo.png" alt="GDSC UII Signature logo" width="300" class="absolute">
+<!--        <img src="assets/img/pattern-what-is.png" class="hidden md:block" alt="pattern-what-is" width="1200">-->
+        <img src="assets/img/gdsc-uii-signature-logo.png" alt="GDSC UII Signature logo" width="800" class="">
       </div>
       <div class="ml-0 mt-16 md:mt-0 md:ml-16">
         <h2 class="text-4xl font-bold">What is GDSC UII?</h2>
@@ -70,6 +78,11 @@
         </p>
       </div>
     </section>
+
+    <section id="team" class="mt-16 w-full">
+      <div class="flex flex-col"></div>
+    </section>
+
     <section id="event-list" class="mt-16 max-w-5xl mx-auto p-4">
       <h2 class="font-bold text-4xl text-center">Current Events</h2>
       <div id="events" class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -107,7 +120,8 @@
         </div>
       </div>
     </section>
-    <section class="mt-16 max-w-5xl mx-auto p-4">
+
+    <section id="medium-articles" class="mt-16 max-w-5xl mx-auto p-4">
       <h2 class="font-bold text-4xl text-center">Medium Publication</h2>
       <div id="medium" class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       </div>

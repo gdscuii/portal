@@ -21,7 +21,7 @@ async function getEvents() {
 
 function eventItemTemplate(event) {
     return (
-        `<article class="mt-4 flex flex-col sm:flex-row rounded-lg border-2 overflow-hidden">
+        `<article class="flex flex-col sm:flex-row rounded-lg border-2 overflow-hidden">
             <img src="${event.imageUrl}" alt="${event.title}" class="w-full sm:w-52">
             <div class="p-4">
                 <h1 class="font-bold text-xl leading-6">${event.title}</h1>

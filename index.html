@@ -37,7 +37,7 @@
       <nav class="hidden lg:block">
         <a href="#gdsc" class="px-4">What is GDSC?</a>
         <a href="#team" class="px-4">Meet the Team</a>
-        <a href="#events" class="px-4">Events</a>
+        <a href="#event-list" class="px-4">Events</a>
         <a href="#articles" class="px-4">Articles</a>
         <a href="#contact" class="px-4">Contact Us</a>
       </nav>
@@ -47,7 +47,7 @@
     <section id="hero" class="p-4 h-96 flex flex-col items-center justify-center">
       <h1 class="font-bold text-5xl text-center relative">
         Welcome to GDSC UII Portal!
-        <img src="assets/img/emot-hands.png" alt="emot-hands" class="absolute -right-14 -top-28">
+        <img src="assets/img/emot-hands.png" alt="emot-hands" class="absolute -right-14 -top-28 hidden md:block">
       </h1>
       <p class="mt-2 text-center">We’re finally here! Checkout what’s currently happening on GDSC UII.</p>
       <img src="assets/img/circle-red.svg" alt="circle-red" class="absolute top-0 left-0 h-64" style="z-index: -1;">
@@ -70,9 +70,17 @@
         </p>
       </div>
     </section>
-    <section id="event-list" class="max-w-2xl mx-auto p-4">
-      <h2 class="font-bold text-2xl">Event yang dapat kamu ikuti</h2>
-      <div id="events">
+    <section id="event-list" class="mt-16 max-w-5xl mx-auto p-4">
+      <h2 class="font-bold text-4xl text-center">Current Events</h2>
+      <div id="events" class="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="mt-4 flex flex-col sm:flex-row rounded-lg border-2 overflow-hidden">
+          <div class="animate-pulse bg-gray-300 h-52 w-full sm:w-52"></div>
+          <div class="p-4 flex-1">
+            <div class="h-6 w-full bg-gray-300 animate-pulse"></div>
+            <div class="mt-2 h-4 w-3/4 bg-gray-300 animate-pulse"></div>
+            <div class="mt-2 h-4 w-1/2 bg-gray-300 animate-pulse"></div>
+          </div>
+        </div>
         <div class="mt-4 flex flex-col sm:flex-row rounded-lg border-2 overflow-hidden">
           <div class="animate-pulse bg-gray-300 h-52 w-full sm:w-52"></div>
           <div class="p-4 flex-1">

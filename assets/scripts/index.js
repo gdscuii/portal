@@ -24,7 +24,7 @@ function eventItemTemplate(event) {
         `<article class="flex flex-col sm:flex-row rounded-lg border-2 overflow-hidden">
             <img src="${event.imageUrl}" alt="${event.title}" class="w-full sm:w-52">
             <div class="p-4">
-                <h1 class="font-bold text-xl leading-6">${event.title}</h1>
+                <h3 class="font-bold text-lg leading-6">${event.title}</h3>
                 <p class="mt-2 text-gray-600">${event.datetime}</p>
                 <p class="mt-2">
                     <a href="http://${event.registrationLink}" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-800">${event.registrationLink}</a>

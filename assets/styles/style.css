@@ -2,3 +2,9 @@
   font-family: 'Google Sans', sans-serif;
   color: #3D3D3D;
 }
+
+.square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
